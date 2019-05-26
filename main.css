@@ -1,0 +1,195 @@
+body {
+  margin: 0;
+  height: 100%;
+}
+/* aca tengo el primer bloque con links */
+nav {
+  background-color: rgb(66, 63, 63);
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+a {
+  text-decoration: none;
+  color: orangered;
+  margin: 1.5em;
+  text-align: center;
+  margin: 0.5em;
+}
+.imagenhtml {
+  margin: 0.5em 1.5em 0 1.5em;
+}
+.imagenhtml img {
+  width: 50px;
+  height: auto;
+}
+.menu {
+  padding: 1.5em;
+}
+.hamburguesa {
+  display: none;
+}
+/* aca tengo la imagen  */
+.banner {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.banner img {
+  margin: 2em;
+  width: 60%;
+  height: 60%;
+}
+/* comienza el body */
+.bodyclass {
+  display: flex;
+  background-color: rgb(206, 192, 192);
+  justify-content: space-between;
+  align-items: center;
+}
+.logocode {
+  width: 100px;
+}
+.logocode img {
+  width: 80%;
+  height: auto;
+}
+.iconos {
+  width: 70px;
+  display: flex;
+}
+.iconos img {
+  width: 100%;
+  height: auto;
+}
+#bodyelements {
+  padding-right: 1.5em;
+  padding-left: 1.5em;
+}
+
+.parrafo img {
+  width: 100%;
+  height: auto;
+}
+
+.parrafo {
+  width: 60%;
+}
+
+h1 {
+  margin-bottom: 0;
+  color: orangered;
+}
+/* comienzan las imagenes de avatar */
+.bodyavatar {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  align-items: center;
+}
+.bodyavatar div {
+  flex-shrink: 1;
+  color: orangered;
+  flex-shrink: 1;
+  width: 100%;
+  margin: 1em;
+}
+.bodyavatar img {
+  width: 100%;
+  height: auto;
+}
+.bodyavatar p,
+h4 {
+  margin-top: 0;
+  text-align: center;
+}
+.pantallachica {
+  display: none;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(87, 82, 82);
+  padding: 0.5em;
+  align-items: center;
+}
+.footer div {
+  display: flex;
+  height: 30px;
+  justify-content: space-between;
+}
+.footer img {
+  width: 30px;
+  height: auto;
+}
+.iconos-redes img {
+  margin: 2px;
+}
+
+@media (max-width: 600px) {
+  .menu {
+    display: none;
+  }
+  .hamburguesa {
+    display: flex;
+    margin: 0.5em 1.5em 0 1.5em;
+    align-items: center;
+  }
+  .hamburguesa img {
+    width: 30px;
+    height: auto;
+  }
+  .banner img {
+    width: 100%;
+    margin-bottom: 0;
+  }
+  .logocode {
+    display: none;
+  }
+  .iconos {
+    display: none;
+  }
+  .bodyclass {
+    justify-content: center;
+  }
+  .parrafo {
+    width: 80%;
+  }
+  h1 {
+    margin: 0;
+  }
+  .bodyavatar {
+    flex-direction: column;
+  }
+  .bodyavatar div {
+    width: 150px;
+  }
+  .avatarimg div {
+    justify-content: center;
+  }
+  .avatarimg img {
+    width: 100%;
+    height: auto;
+  }
+  .bodyavatar h4 {
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .pantallagrande {
+    display: none;
+  }
+  .pantallachica {
+    display: flex;
+    background-color: rgb(206, 192, 192);
+    border-radius: 10px;
+    padding: 2%;
+    transform: translatey(-50px);
+  }
+  h4{
+    transform: translatey(50px) !important;
+  }
+}
